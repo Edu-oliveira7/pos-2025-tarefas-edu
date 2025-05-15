@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio>
+    <item id="1">
+        <nome>Pizza Margherita</nome>
+        <descricao>deliciosa pizza com molho de tomate, queijo mozzarella e manjericão fresco</descricao>
+        <ingredientes>molho de tomate, queijo mozzarella, calabresa, cebola, azeitona</ingredientes>
+        <preco>39.90</preco>
+        <caloria>500 caloria</caloria>
+        <tempo>1 hora</tempo>
+    </item>
+    <item id="2">
+        <nome>Lasanha Bolonhesa</nome>
+        <descricao>camadas de massa com molho à bolonhesa e queijo gratinado</descricao>
+        <ingredientes>massa de lasanha, carne moída, molho de tomate, queijo mussarela, parmesão</ingredientes>
+        <preco>45.00</preco>
+        <caloria>750 caloria</caloria>
+        <tempo>1 hora e 20 minutos</tempo>
+    </item>
+    <item id="3">
+        <nome>Hambúrguer Artesanal</nome>
+        <descricao>hambúrguer suculento com queijo cheddar, bacon e molho especial</descricao>
+        <ingredientes>pão artesanal, carne bovina, queijo cheddar, bacon, alface, tomate, molho especial</ingredientes>
+        <preco>29.90</preco>
+        <caloria>820 caloria</caloria>
+        <tempo>30 minutos</tempo>
+    </item>
+    <item id="4">
+        <nome>Salada Caesar</nome>
+        <descricao>clássica salada com alface romana, frango grelhado e croutons</descricao>
+        <ingredientes>alface romana, frango grelhado, croutons, parmesão, molho caesar</ingredientes>
+        <preco>25.50</preco>
+        <caloria>350 caloria</caloria>
+        <tempo>20 minutos</tempo>
+    </item>
+    <item id="5">
+        <nome>Risoto de Camarão</nome>
+        <descricao>risoto cremoso preparado com camarões frescos e ervas finas</descricao>
+        <ingredientes>arroz arbório, camarão, alho, cebola, vinho branco, creme de leite, ervas finas</ingredientes>
+        <preco>58.90</preco>
+        <caloria>680 caloria</caloria>
+        <tempo>45 minutos</tempo>
+    </item>
+</cardapio>
