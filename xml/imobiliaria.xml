@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imobiliaria [
+<!ELEMENT imobiliaria (imovel+)>
+<!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+
+<!ELEMENT proprietario (nome, (email | telefone)+)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefone (#PCDATA)>
+
+<!ELEMENT endereco (rua, bairro, cidade, numero?)>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT bairro (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+
+<!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+<!ELEMENT tamanho (#PCDATA)>
+<!ELEMENT numQuartos (#PCDATA)>
+<!ELEMENT numBanheiros (#PCDATA)>
+
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT valor (#PCDATA)>
+]>
+
+<imobiliaria>
+    <imovel>
+        <descricao>Apartamento luxuoso com vista para o mar</descricao>
+        <proprietario>
+            <nome>Carlos Eduardo Augusto</nome>
+            <telefone>(21) 98765-4321</telefone>
+            <telefone>(21) 2222-3333</telefone>
+            <email>carlos.silva@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Beira Mar</rua>
+            <bairro>Copacabana</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <numero>1200</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>120 m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>2.500.000,00</valor>
+    </imovel>
+
+    
+    <imovel>
+        <descricao>Casa térrea com jardim e piscina infinita</descricao>
+        <proprietario>
+            <nome>Ana Paula Oliveira da Silva</nome>
+            <telefone>(11) 99876-5432</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Jardim América</bairro>
+            <cidade>São Paulo</cidade>
+            <numero>45</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>180 m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>1.800.000,00</valor>
+    </imovel>
+
+   
+    <imovel>
+        <descricao>Sítio com área de lazer completa</descricao>
+        <proprietario>
+            <nome>Roberto Nascimento Dias</nome>
+            <email>roberto.nascimento@email.com</email>
+            <telefone>(31) 98765-1234</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Estrada do Sertão</rua>
+            <bairro>Zona Rural</bairro>
+            <cidade>Belo Horizonte</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>5.000 m²</tamanho>
+            <numQuartos>6</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>3.200.000,00</valor>
+    </imovel>
+
+    
+    <imovel>
+        <descricao>Loja comercial em local movimentado</descricao>
+        <proprietario>
+            <nome>Empresa Comercial Ltda</nome>
+            <telefone>(41) 3333-4444</telefone>
+            <email>vendas@empresacomercial.com</email>
+            <email>contato@empresacomercial.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Comércio</rua>
+            <bairro>Centro</bairro>
+            <cidade>Curitiba</cidade>
+            <numero>780</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>80 m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>950.000,00</valor>
+    </imovel>
+
+    
+    <imovel>
+        <descricao>Kitnet mobiliada próximo ao metrô</descricao>
+        <proprietario>
+            <nome>Fernanda Costa</nome>
+            <telefone>(51) 99999-8888</telefone>
+            <email>fernanda.costa@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Palmeiras</rua>
+            <bairro>Moinhos de Vento</bairro>
+            <cidade>Porto Alegre</cidade>
+            <numero>205</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>35 m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>380.000,00</valor>
+    </imovel>
+</imobiliaria>
