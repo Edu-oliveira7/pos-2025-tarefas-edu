@@ -10,7 +10,7 @@
         <tempo>1 hora</tempo>
     </item>
     <item id="p2">
-        <nome>Lasanha Bolonhesa</nome>
+        <nome>Lasanha Bolonhesa </nome>
         <descricao>camadas de massa com molho à bolonhesa e queijo gratinado</descricao>
         <ingredientes>massa de lasanha, carne moída, molho de tomate, queijo mussarela, parmesão</ingredientes>
         <preco>45.00</preco>
