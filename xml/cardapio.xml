@@ -1,44 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+
 <cardapio>
-    <item id="p1">
-        <nome>Pizza Margherita</nome>
-        <descricao>deliciosa pizza com molho de tomate, queijo mozzarella e manjericão fresco</descricao>
-        <ingredientes>molho de tomate, queijo mozzarella, calabresa, cebola, azeitona</ingredientes>
-        <preco>39.90</preco>
-        <caloria>500 caloria </caloria>
-        <tempo>1 hora</tempo>
-    </item>
-    <item id="p2">
-        <nome>Lasanha Bolonhesa </nome>
-        <descricao>camadas de massa com molho à bolonhesa e queijo gratinado</descricao>
-        <ingredientes>massa de lasanha, carne moída, molho de tomate, queijo mussarela, parmesão</ingredientes>
-        <preco>45.00</preco>
-        <caloria>750 caloria</caloria>
-        <tempo>1 hora e 20 minutos</tempo>
-    </item>
-    <item id="p3">
+    <prato id="p1">
+        <nome>Feijoada</nome>
+        <descricao>Prato típico brasileiro com feijão preto e carnes.</descricao>
+        <ingredientes>
+            <ingrediente>Feijão preto</ingrediente>
+            <ingrediente>Carnes diversas</ingrediente>
+            <ingrediente>Farofa</ingrediente>
+            <ingrediente>Arroz</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 35.00</preco>
+        <calorias>850</calorias>
+        <tempoPreparo>90 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="p2">
+        <nome>Hambúrguer</nome>
+        <descricao>Pão com hambúrguer de carne, queijo e vegetais.</descricao>
+        <ingredientes>
+            <ingrediente>Pão</ingrediente>
+            <ingrediente>Carne bovina</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+            <ingrediente>Alface</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+        </ingredientes>
+        <preco moeda="USD">$ 8.50</preco>
+        <calorias>650</calorias>
+        <tempoPreparo>15 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="p3">
+        <nome>Lasanha Bolonhesa</nome>
+        <descricao>Camadas de massa com molho à bolonhesa e queijo gratinado</descricao>
+        <ingredientes>
+            <ingrediente>massa de lasanha</ingrediente>
+            <ingrediente>carne moída</ingrediente>
+            <ingrediente>molho de tomate</ingrediente>
+            <ingrediente>queijo mussarela</ingrediente>
+            <ingrediente>parmesão</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">45.00</preco>
+        <calorias>750 caloria</calorias>
+        <tempoPreparo>1 hora e 20 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="p4">
         <nome>Hambúrguer Artesanal</nome>
-        <descricao>hambúrguer suculento com queijo cheddar, bacon e molho especial</descricao>
-        <ingredientes>pão artesanal, carne bovina, queijo cheddar, bacon, alface, tomate, molho especial</ingredientes>
-        <preco>29.90</preco>
-        <caloria>820 caloria</caloria>
-        <tempo>30 minutos</tempo>
-    </item>
-    <item id="p4">
-        <nome>Salada Caesar</nome>
-        <descricao>clássica salada com alface romana, frango grelhado e croutons</descricao>
-        <ingredientes>alface romana, frango grelhado, croutons, parmesão, molho caesar</ingredientes>
-        <preco>25.50</preco>
-        <caloria>350 caloria</caloria>
-        <tempo>20 minutos</tempo>
-    </item>
-    <item id="p5">
-        <nome>Risoto de Camarão</nome>
-        <descricao>risoto cremoso preparado com camarões frescos e ervas finas</descricao>
-        <ingredientes>arroz arbório, camarão, alho, cebola, vinho branco, creme de leite, ervas finas</ingredientes>
-        <preco>58.90</preco>
-        <caloria>680 caloria</caloria>
-        <tempo>45 minutos</tempo>
-    </item>
+        <descricao>Hambúrguer suculento com queijo cheddar, bacon e molho especial</descricao>
+        <ingredientes>
+            <ingrediente>pão artesanal</ingrediente>
+            <ingrediente>carne bovina</ingrediente>
+            <ingrediente>queijo cheddar</ingrediente>
+            <ingrediente>bacon</ingrediente>
+            <ingrediente>alface</ingrediente>
+            <ingrediente>tomate</ingrediente>
+            <ingrediente>molho especial</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">29.90</preco>
+        <calorias>820 caloria</calorias>
+        <tempoPreparo>30 minutos</tempoPreparo>
+    </prato>
+
 </cardapio>
