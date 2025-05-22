@@ -1,0 +1,9 @@
+<!ELEMENT cardapio (item+)>
+<!ELEMENT item (nome, descricao, ingredientes+, preco, caloria, tempo)>
+<!ATTLIST item id ID #REQUIRED>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT ingredientes (#PCDATA)>
+<!ELEMENT preco (#PCDATA)>
+<!ELEMENT caloria (#PCDATA)>
+<!ELEMENT tempo (#PCDATA)>
