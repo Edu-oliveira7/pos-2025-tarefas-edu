@@ -6,7 +6,7 @@
         <descricao>deliciosa pizza com molho de tomate, queijo mozzarella e manjericão fresco</descricao>
         <ingredientes>molho de tomate, queijo mozzarella, calabresa, cebola, azeitona</ingredientes>
         <preco>39.90</preco>
-        <caloria>500 caloria</caloria>
+        <caloria>500 caloria </caloria>
         <tempo>1 hora</tempo>
     </item>
     <item id="p2">
