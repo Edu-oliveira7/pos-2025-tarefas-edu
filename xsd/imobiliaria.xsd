@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+
+  <element name="imobiliaria">
+    <complexType>
+      <sequence>
+        <element name="imovel" minOccurs="1" maxOccurs="unbounded">
+          <complexType>
+            <sequence>
+              <element name="descricao" type="string"/>
+              <element name="proprietario">
+                <complexType>
+                  <sequence>
+                    <element name="nome" type="string"/>
+                    <element name="email" type="string" minOccurs="0" maxOccurs="unbounded"/>
+                    <element name="telefone" type="string" minOccurs="0" maxOccurs="unbounded"/>
+                  </sequence>
+                </complexType>
+              </element>
+              <element name="endereco">
+                <complexType>
+                  <sequence>
+                    <element name="rua" type="string"/>
+                    <element name="bairro" type="string"/>
+                    <element name="cidade" type="string"/>
+                    <element name="numero" type="integer" minOccurs="0"/>
+                  </sequence>
+                </complexType>
+              </element>
+              <element name="caracteristicas">
+                <complexType>
+                  <sequence>
+                    <element name="tamanho" type="decimal"/>
+                    <element name="numQuartos" type="integer"/>
+                    <element name="numBanheiros" type="integer"/>
+                  </sequence>
+                </complexType>
+              </element>
+              <element name="valor" type="decimal"/>
+            </sequence>
+          </complexType>
+        </element>
+      </sequence>
+    </complexType>
+  </element>
+
+</schema>
