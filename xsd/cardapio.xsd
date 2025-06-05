@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+
+  <element name="cardapio">
+    <complexType>
+      <sequence>
+        <element name="prato" minOccurs="1" maxOccurs="unbounded">
+          <complexType>
+            <sequence>
+              <element name="nome" type="string"/>
+              <element name="descricao" type="string"/>
+              <element name="ingredientes">
+                <complexType>
+                  <sequence>
+                    <element name="ingrediente" type="string" minOccurs="1" maxOccurs="unbounded"/>
+                  </sequence>
+                </complexType>
+              </element>
+              <element name="preco">
+                <simpleType>
+                  <restriction base="decimal">
+                    <fractionDigits value="2"/>
+                  </restriction>
+                </simpleType>
+              </element>
+              <element name="calorias" type="integer"/>
+              <element name="tempoPreparo" type="string"/>
+            </sequence>
+            <attribute name="id" type="integer" use="required"/>
+          </complexType>
+        </element>
+      </sequence>
+    </complexType>
+  </element>
+
+</schema>
