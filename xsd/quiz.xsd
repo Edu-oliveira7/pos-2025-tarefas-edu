@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+
+  <element name="quiz">
+    <complexType>
+      <sequence>
+        <element name="questao" minOccurs="1" maxOccurs="unbounded">
+          <complexType>
+            <sequence>
+              <element name="pergunta" type="string"/>
+              <element name="alternativa" minOccurs="1" maxOccurs="unbounded">
+                <complexType>
+                  <simpleContent>
+                    <extension base="string">
+                      <attribute name="correta">
+                        <simpleType>
+                          <restriction base="string">
+                            <enumeration value="sim"/>
+                            <enumeration value="nao"/>
+                          </restriction>
+                        </simpleType>
+                      </attribute>
+                    </extension>
+                  </simpleContent>
+                </complexType>
+              </element>
+              <element name="resposta" type="string"/>
+            </sequence>
+            <attribute name="id" type="ID" use="required"/>
+          </complexType>
+        </element>
+      </sequence>
+    </complexType>
+  </element>
+
+</schema>

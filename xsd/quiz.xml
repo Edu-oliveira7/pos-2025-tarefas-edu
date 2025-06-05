@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz versao="1.0">
+    <disciplina>Banco de Dados</disciplina>
+
+    <professor>
+        <nome>Ari Barreto</nome>
+        <matrícula>123456</matrícula>
+    </professor>
+
+<turma>4º ano</turma>
+    <data>26/05</data>
+
+    <questões>
+        <questão>
+            <enunciado>SQL é uma linguagem usada para manipular dados em bancos relacionais?</enunciado>
+            <pontuação>5 pontos</pontuação>
+            <alternativas>
+                <alternativa correta="sim">SIM</alternativa>
+                <alternativa correta="nao">NÃO</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Um banco de dados relacional organiza dados em tabelas?</enunciado>
+            <pontuação>5 pontos</pontuação>
+            <alternativas>
+                <alternativa correta="sim">SIM</alternativa>
+                <alternativa correta="nao">NÃO</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Um banco de dados é usado para armazenar dados de forma estruturada?</enunciado>
+            <pontuação>5 pontos</pontuação>
+            <alternativas>
+                <alternativa correta="nao">SIM</alternativa>
+                <alternativa correta="sim">NÃO</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Um usuário pode acessar todos os dados do banco sem permissões?</enunciado>
+            <pontuação>5 pontos</pontuação>
+            <alternativas>
+                <alternativa correta="nao">SIM</alternativa>
+                <alternativa correta="sim">NÃO</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>É possível proteger um banco de dados com senhas?</enunciado>
+            <pontuação>5 pontos</pontuação>
+            <alternativas>
+                <alternativa correta="sim">SIM</alternativa>
+                <alternativa correta="nao">NÃO</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+    
+</quiz>
