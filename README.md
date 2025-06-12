@@ -30,6 +30,30 @@ Atividades entregues após o prazo valem 50% da nota até a data final de cada u
 - Crie um arquivo chamado `quiz.xml` dentro da pasta `xml` na raiz do repositório.
 - https://dvcirilo-ifrn.github.io/pos/slides/aula06.html#15
 
+### Tarefa 05 - XSD para cardápio
+- **Entrega: 12/06/2025**
+- Crie uma pasta `xsd` na raiz do repositório.
+- Copie o arquivo `cardapio.xml` da tarefa anterior para a pasta `xsd`.
+- Crie um arquivo chamado `cardapio.xsd` dentro da pasta `xsd`.
+- https://dvcirilo-ifrn.github.io/pos/slides/aula08.html#34
+
+### Tarefa 06 - XSD para imobiliária
+- **Entrega: 12/06/2025**
+- Copie o arquivo `imobiliaria.xml` da tarefa anterior para a pasta `xsd`.
+- Crie um arquivo chamado `imobiliaria.xsd` dentro da pasta `xsd`.
+- https://dvcirilo-ifrn.github.io/pos/slides/aula08.html#35
+
+### Tarefa 07 - XSD para quiz
+- **Entrega: 12/06/2025**
+- Copie o arquivo `quiz.xml` da tarefa anterior para a pasta `xsd`.
+- Crie um arquivo chamado `quiz.xsd` dentro da pasta `xsd`.
+- https://dvcirilo-ifrn.github.io/pos/slides/aula08.html#36
+
+### Tarefa 08 - JSON
+- **Entrega: 19/06/2025**
+- Crie uma pasta `json` com os três arquivos da tarefa (`cardapio.json`, `imobiliaria.json` e `quiz.json`).
+- https://dvcirilo-ifrn.github.io/pos/slides/aula09.html#6
+
 ## Unidade 03 (09/09/2025 a 12/11/2025)
 - Em breve
 
