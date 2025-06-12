@@ -1,0 +1,87 @@
+{
+    "cardapio": {
+        "prato": [
+            {
+                "id": "p1",
+                "nome": "Feijoada",
+                "descricao": "Prato típico brasileiro com feijão preto e carnes.",
+                "ingredientes": {
+                    "ingrediente": [
+                        "Feijão preto",
+                        "Carnes diversas",
+                        "Farofa",
+                        "Arroz"
+                    ]
+                },
+                "preco": {
+                    "moeda": "BRL",
+                    "valor": "R$ 35.00"
+                },
+                "calorias": "850",
+                "tempoPreparo": "90 minutos"
+            },
+            {
+                "id": "p2",
+                "nome": "Hambúrguer",
+                "descricao": "Pão com hambúrguer de carne, queijo e vegetais.",
+                "ingredientes": {
+                    "ingrediente": [
+                        "Pão",
+                        "Carne bovina",
+                        "Queijo",
+                        "Alface",
+                        "Tomate"
+                    ]
+                },
+                "preco": {
+                    "moeda": "USD",
+                    "valor": "$ 8.50"
+                },
+                "calorias": "650",
+                "tempoPreparo": "15 minutos"
+            },
+            {
+                "id": "p3",
+                "nome": "Lasanha Bolonhesa",
+                "descricao": "Camadas de massa com molho à bolonhesa e queijo gratinado",
+                "ingredientes": {
+                    "ingrediente": [
+                        "massa de lasanha",
+                        "carne moída",
+                        "molho de tomate",
+                        "queijo mussarela",
+                        "parmesão"
+                    ]
+                },
+                "preco": {
+                    "moeda": "BRL",
+                    "valor": "45.00"
+                },
+                "calorias": "750 caloria",
+                "tempoPreparo": "1 hora e 20 minutos"
+            },
+            {
+                "id": "p4",
+                "nome": "Hambúrguer Artesanal",
+                "descricao": "Hambúrguer suculento com queijo cheddar, bacon e molho especial",
+                "ingredientes": {
+                    "ingrediente": [
+                        "pão artesanal",
+                        "carne bovina",
+                        "queijo cheddar",
+                        "bacon",
+                        "alface",
+                        "tomate",
+                        "molho especial"
+                    ]
+                },
+                "preco": {
+                    "moeda": "BRL",
+                    "valor": "29.90"
+                },
+                "calorias": "820 caloria",
+                "tempoPreparo": "30 minutos"
+            }
+        ]
+    }
+}

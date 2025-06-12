@@ -1,0 +1,109 @@
+{
+    "imobiliaria": {
+      "imoveis": [
+        {
+          "descricao": "Apartamento luxuoso com vista para o mar",
+          "proprietario": {
+            "nome": "Carlos Eduardo Augusto",
+            "telefones": ["(21) 98765-4321", "(21) 2222-3333"],
+            "email": "carlos.silva@email.com"
+          },
+          "endereco": {
+            "rua": "Avenida Beira Mar",
+            "bairro": "Copacabana",
+            "cidade": "Rio de Janeiro",
+            "numero": 1200
+          },
+          "caracteristicas": {
+            "tamanho": "120 m²",
+            "numQuartos": 3,
+            "numBanheiros": 2
+          },
+          "valor": "2.500.000,00"
+        },
+        {
+          "descricao": "Casa térrea com jardim e piscina infinita",
+          "proprietario": {
+            "nome": "Ana Paula Oliveira da Silva",
+            "telefones": ["(11) 99876-5432"]
+          },
+          "endereco": {
+            "rua": "Rua das Flores",
+            "bairro": "Jardim América",
+            "cidade": "São Paulo",
+            "numero": 45
+          },
+          "caracteristicas": {
+            "tamanho": "180 m²",
+            "numQuartos": 4,
+            "numBanheiros": 3
+          },
+          "valor": "1.800.000,00"
+        },
+        {
+          "descricao": "Sítio com área de lazer completa",
+          "proprietario": {
+            "nome": "Roberto Nascimento Dias",
+            "telefones": ["(31) 98765-1234"],
+            "email": "roberto.nascimento@email.com"
+          },
+          "endereco": {
+            "rua": "Estrada do Sertão",
+            "bairro": "Zona Rural",
+            "cidade": "Belo Horizonte"
+          },
+          "caracteristicas": {
+            "tamanho": "5.000 m²",
+            "numQuartos": 6,
+            "numBanheiros": 4
+          },
+          "valor": "3.200.000,00"
+        },
+        {
+          "descricao": "Loja comercial em local movimentado",
+          "proprietario": {
+            "nome": "Empresa Comercial Ltda",
+            "telefones": ["(41) 3333-4444"],
+            "emails": [
+              "vendas@empresacomercial.com",
+              "contato@empresacomercial.com"
+            ]
+          },
+          "endereco": {
+            "rua": "Rua do Comércio",
+            "bairro": "Centro",
+            "cidade": "Curitiba",
+            "numero": 780
+          },
+          "caracteristicas": {
+            "tamanho": "80 m²",
+            "numQuartos": 1,
+            "numBanheiros": 1
+          },
+          "valor": "950.000,00"
+        },
+        {
+          "descricao": "Kitnet mobiliada próximo ao metrô",
+          "proprietario": {
+            "nome": "Fernanda Costa",
+            "telefones": ["(51) 99999-8888"],
+            "email": "fernanda.costa@email.com"
+          },
+          "endereco": {
+            "rua": "Rua das Palmeiras",
+            "bairro": "Moinhos de Vento",
+            "cidade": "Porto Alegre",
+            "numero": 205
+          },
+          "caracteristicas": {
+            "tamanho": "35 m²",
+            "numQuartos": 1,
+            "numBanheiros": 1
+          },
+          "valor": "380.000,00"
+        }
+      ]
+    }
+  }
+  
+  

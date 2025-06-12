@@ -1,0 +1,84 @@
+{
+    "quiz": {
+      "versao": "1.0",
+      "disciplina": "Banco de Dados",
+      "professor": {
+        "nome": "Ari Barreto",
+        "matricula": "123456"
+      },
+      "turma": "4º ano",
+      "data": "26/05",
+      "questoes": [
+        {
+          "enunciado": "SQL é uma linguagem usada para manipular dados em bancos relacionais?",
+          "pontuacao": "5 pontos",
+          "alternativas": [
+            {
+              "texto": "SIM",
+              "correta": true
+            },
+            {
+              "texto": "NÃO",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "enunciado": "Um banco de dados relacional organiza dados em tabelas?",
+          "pontuacao": "5 pontos",
+          "alternativas": [
+            {
+              "texto": "SIM",
+              "correta": true
+            },
+            {
+              "texto": "NÃO",
+              "correta": false
+            }
+          ]
+        },
+        {
+          "enunciado": "Um banco de dados é usado para armazenar dados de forma estruturada?",
+          "pontuacao": "5 pontos",
+          "alternativas": [
+            {
+              "texto": "SIM",
+              "correta": false
+            },
+            {
+              "texto": "NÃO",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "enunciado": "Um usuário pode acessar todos os dados do banco sem permissões?",
+          "pontuacao": "5 pontos",
+          "alternativas": [
+            {
+              "texto": "SIM",
+              "correta": false
+            },
+            {
+              "texto": "NÃO",
+              "correta": true
+            }
+          ]
+        },
+        {
+          "enunciado": "É possível proteger um banco de dados com senhas?",
+          "pontuacao": "5 pontos",
+          "alternativas": [
+            {
+              "texto": "SIM",
+              "correta": true
+            },
+            {
+              "texto": "NÃO",
+              "correta": false
+            }
+          ]
+        }
+      ]
+    }
+}
