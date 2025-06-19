@@ -54,6 +54,21 @@ Atividades entregues após o prazo valem 50% da nota até a data final de cada u
 - Crie uma pasta `json` com os três arquivos da tarefa (`cardapio.json`, `imobiliaria.json` e `quiz.json`).
 - https://dvcirilo-ifrn.github.io/pos/slides/aula09.html#6
 
+### Tarefa 09 - Parser Cardapio XML
+- **Entrega: 19/06/2025**
+- Crie uma pasta `parsers` com os dois arquivos da tarefa (`cardapio.xml` e `cardapio.py`).
+- https://dvcirilo-ifrn.github.io/pos/slides/aula10.html#8
+
+### Tarefa 10 - Conversão XML - JSON
+- **Entrega: 26/06/2025**
+- Dentro da pasta `parsers` adicione os três arquivos da tarefa (`imobiliaria.xml`, `imobiliaria.py` e `imobiliaria.json`).
+- https://dvcirilo-ifrn.github.io/pos/slides/aula10.html#13
+
+### Tarefa 11 - Parser Imobiliária JSON
+- **Entrega: 26/06/2025**
+- Dentro da pasta `parsers` adicione o arquivo da tarefa (`parser_imobiliaria.py`).
+- https://dvcirilo-ifrn.github.io/pos/slides/aula10.html#14
+
 ## Unidade 03 (09/09/2025 a 12/11/2025)
 - Em breve
 
