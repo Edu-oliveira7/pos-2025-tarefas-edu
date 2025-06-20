@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cardapio>
+
+<cardapio>
+    <prato id="p1">
+        <nome>Feijoada</nome>
+        <descricao>Prato típico brasileiro com feijão preto e carnes.</descricao>
+        <ingredientes>
+            <ingrediente>Feijão preto</ingrediente>
+            <ingrediente>Carnes diversas</ingrediente>
+            <ingrediente>Farofa</ingrediente>
+            <ingrediente>Arroz</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL"> 35.00 Reais</preco>
+        <calorias>850</calorias>
+        <tempoPreparo>90 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="p2">
+        <nome>Hambúrguer</nome>
+        <descricao>Pão com hambúrguer de carne, queijo e vegetais.</descricao>
+        <ingredientes>
+            <ingrediente>Pão</ingrediente>
+            <ingrediente>Carne bovina</ingrediente>
+            <ingrediente>Queijo</ingrediente>
+            <ingrediente>Alface</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+        </ingredientes>
+        <preco moeda="USD">$ 8.50</preco>
+        <calorias>650</calorias>
+        <tempoPreparo>15 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="p3">
+        <nome>Lasanha Bolonhesa</nome>
+        <descricao>Camadas de massa com molho à bolonhesa e queijo gratinado</descricao>
+        <ingredientes>
+            <ingrediente>massa de lasanha</ingrediente>
+            <ingrediente>carne moída</ingrediente>
+            <ingrediente>molho de tomate</ingrediente>
+            <ingrediente>queijo mussarela</ingrediente>
+            <ingrediente>parmesão</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">45.00</preco>
+        <calorias>750 caloria</calorias>
+        <tempoPreparo>1 hora e 20 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="p4">
+        <nome>Hambúrguer Artesanal</nome>
+        <descricao>Hambúrguer suculento com queijo cheddar, bacon e molho especial</descricao>
+        <ingredientes>
+            <ingrediente>pão artesanal</ingrediente>
+            <ingrediente>carne bovina</ingrediente>
+            <ingrediente>queijo cheddar</ingrediente>
+            <ingrediente>bacon</ingrediente>
+            <ingrediente>alface</ingrediente>
+            <ingrediente>tomate</ingrediente>
+            <ingrediente>molho especial</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">29.90</preco>
+        <calorias>820 caloria</calorias>
+        <tempoPreparo>30 minutos</tempoPreparo>
+    </prato>
+
+</cardapio>
