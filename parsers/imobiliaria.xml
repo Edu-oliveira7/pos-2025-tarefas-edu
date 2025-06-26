@@ -7,7 +7,7 @@
 <!ELEMENT nome (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT telefone (#PCDATA)>
-
+a
 <!ELEMENT endereco (rua, bairro, cidade, numero?)>
 <!ELEMENT rua (#PCDATA)>
 <!ELEMENT bairro (#PCDATA)>
