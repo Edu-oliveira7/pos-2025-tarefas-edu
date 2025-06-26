@@ -4,7 +4,7 @@ from xml.dom.minidom import parse
 
 dom = parse("parsers/imobiliaria.xml")
 raiz = dom.documentElement
-a
+
 lista_imoveis = []
 
 imoveis = raiz.getElementsByTagName("imovel")
