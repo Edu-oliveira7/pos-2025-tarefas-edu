@@ -69,6 +69,11 @@ Atividades entregues após o prazo valem 50% da nota até a data final de cada u
 - Dentro da pasta `parsers` adicione o arquivo da tarefa (`parser_imobiliaria.py`).
 - https://dvcirilo-ifrn.github.io/pos/slides/aula10.html#14
 
+### Tarefa 12 - Cliente JSONPlaceholder (users)
+- **Entrega: 03/07/2025**
+- Crie uma pasta `rest` com os dois arquivos da tarefa: `users.py` e `cliente.py`.
+- https://dvcirilo-ifrn.github.io/pos/slides/aula11.html#24
+
 ## Unidade 03 (09/09/2025 a 12/11/2025)
 - Em breve
 
