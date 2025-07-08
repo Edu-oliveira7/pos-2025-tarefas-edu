@@ -74,6 +74,16 @@ Atividades entregues após o prazo valem 50% da nota até a data final de cada u
 - Crie uma pasta `rest` com os dois arquivos da tarefa: `users.py` e `cliente.py`.
 - https://dvcirilo-ifrn.github.io/pos/slides/aula11.html#24
 
+### Tarefa 13 - Cliente SOAP
+- **Entrega: 11/07/2025**
+- Crie uma pasta `soap` com o arquivo: `soap.py`.
+- https://dvcirilo-ifrn.github.io/pos/slides/aula12.html#9
+
+### Tarefa 14 - Cliente SOAP com Zeep
+- **Entrega: 17/07/2025**
+- Dentro da pasta `soap` adicione o arquivo da tarefa (`zeep.py`).
+- https://dvcirilo-ifrn.github.io/pos/slides/aula12.html#12
+
 ## Unidade 03 (09/09/2025 a 12/11/2025)
 - Em breve
 
