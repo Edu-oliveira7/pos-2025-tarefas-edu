@@ -6,8 +6,8 @@ client = zeep.Client(wsdl=wsdl_url)
 
 numero = int(input("Digite um número inteiro: "))
 
-result = client.service.NumberToWords(
+resultado = client.service.NumberToWords(
     ubiNum=numero
 )
 
-print(f"A representação por extenso desse número em inglês {numero} é: {result}")
+print(f"A representação por extenso desse número em inglês {numero} é: {resultado}")
