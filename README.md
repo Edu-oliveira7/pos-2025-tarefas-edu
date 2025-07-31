@@ -84,6 +84,11 @@ Atividades entregues após o prazo valem 50% da nota até a data final de cada u
 - Dentro da pasta `soap` adicione o arquivo da tarefa (`zeep.py`).
 - https://dvcirilo-ifrn.github.io/pos/slides/aula12.html#12
 
+### Tarefa 15 - Cliente API SUAP
+- **Entrega: 31/07/2025**
+- Crie uma pasta `suap` com o arquivo: `suap.py`.
+- https://dvcirilo-ifrn.github.io/pos/slides/aula13.html#8
+
 ## Unidade 03 (09/09/2025 a 12/11/2025)
 - Em breve
 
