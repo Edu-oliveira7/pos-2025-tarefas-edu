@@ -90,7 +90,10 @@ Atividades entregues após o prazo valem 50% da nota até a data final de cada u
 - https://dvcirilo-ifrn.github.io/pos/slides/aula13.html#8
 
 ## Unidade 03 (09/09/2025 a 12/11/2025)
-- Em breve
+### Tarefa 16 - Cliente JS Vanilla
+- **Entrega: 27/09/2025**
+- Crie uma pasta `clientejs` com os arquivos do projeto.
+- https://dvcirilo-ifrn.github.io/pos/slides/aula14.html#29
 
 ## Unidade 04 (13/11/2025 a 10/02/2026)
 - Em breve
