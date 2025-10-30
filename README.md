@@ -95,5 +95,10 @@ Atividades entregues após o prazo valem 50% da nota até a data final de cada u
 - Crie uma pasta `clientejs` com os arquivos do projeto.
 - https://dvcirilo-ifrn.github.io/pos/slides/aula14.html#29
 
+### Tarefa 17 - Cliente JS Vanilla no Vite
+- **Entrega: 04/10/2025**
+- Crie uma pasta `cliente-vite` com os arquivos do projeto.
+- https://dvcirilo-ifrn.github.io/pos/slides/aula14.html#35
+
 ## Unidade 04 (13/11/2025 a 10/02/2026)
 - Em breve
