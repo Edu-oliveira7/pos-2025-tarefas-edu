@@ -101,4 +101,8 @@ Atividades entregues após o prazo valem 50% da nota até a data final de cada u
 - https://dvcirilo-ifrn.github.io/pos/slides/aula14.html#35
 
 ## Unidade 04 (13/11/2025 a 10/02/2026)
-- Em breve
+
+### Tarefa 18 - Cliente JS React no Vite
+- **Entrega: 17/12/2025**
+- Crie uma pasta `cliente-react` com os arquivos do projeto.
+- https://dvcirilo-ifrn.github.io/pos/slides/aula15.html#68
